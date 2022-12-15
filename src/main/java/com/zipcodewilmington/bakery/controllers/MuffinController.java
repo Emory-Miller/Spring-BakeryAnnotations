@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-@RequestMapping("/muffin")
+@RequestMapping("/muffins")
 public class MuffinController {
     @Autowired
     private MuffinService muffinService;

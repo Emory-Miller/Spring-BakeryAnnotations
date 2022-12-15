@@ -10,7 +10,7 @@ public class Muffin {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(nullable = false)
+//    @Column(nullable = false)
     private String flavor;
 
     public Muffin() {
